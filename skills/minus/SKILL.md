@@ -69,7 +69,7 @@ description: 実装、運用手順、概念・業務モデル・UI/UXなどを�
 
 # Output
 
-出力の直前に [OUTPUT-FORMAT.md](OUTPUT-FORMAT.md) を読み、その形式で簡潔に出力してください。
+出力の直前に [output.md](output.md) を読み、その形式で簡潔に出力してください。
 
 Findings は重要度順に並べ、`High`、`Medium`、`Low` のいずれかを付けてください。
 `High` は、所有境界、公開契約、不変条件、状態空間、依存方向を悪化させ、将来の変更コストを明確に増やすものに使ってください。
