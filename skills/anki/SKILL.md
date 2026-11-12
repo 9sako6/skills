@@ -1,6 +1,7 @@
 ---
 name: anki
 description: 学びたい主題とAnkiの既存ノートから現在地を組み立て、前提知識から自然につながる次の学習カードを設計し、承認後だけAnkiConnectで追加する。Ankiで新しい内容を学び始めたい、続きを作りたい、既存カードとの重複を避けて少量ずつ学びたいときに使う。
+compatibility: Bunと、AnkiConnectアドオンを有効にしたAnkiが必要です。実行環境からAnkiConnectのHTTPエンドポイントに接続できること。
 ---
 
 # Anki学習
