@@ -11,9 +11,3 @@
 - [ ] 実機ごとの更新・検証履歴を含めていない
 - [ ] 例やfixtureに合成値を使っている
 - [ ] [CONTRIBUTING.md](CONTRIBUTING.md#public-information)を確認した
-
-## Checks
-
-- [ ] `mise exec -- bun test`が通った
-
-テストを実行できなかった場合は、その理由を書いてください。
