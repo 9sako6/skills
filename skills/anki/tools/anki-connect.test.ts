@@ -42,7 +42,7 @@ describe("endpoint", () => {
   });
 
   test("rejects endpoints on other hosts", () => {
-    expect(() => assertLocalEndpoint("http://192.168.1.2:8765")).toThrow(
+    expect(() => assertLocalEndpoint("http://192.0.2.10:8765")).toThrow(
       "must be loopback or host.docker.internal",
     );
     expect(() => assertLocalEndpoint("http://anki.example.com:8765")).toThrow(
